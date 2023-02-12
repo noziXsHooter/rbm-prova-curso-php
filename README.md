@@ -1,4 +1,4 @@
-# SISTEMA DE EMPRÉSTIMOS
+# Sistema de Empréstimos
 
 Esta é a prova do curso de PHP feito pela RBM WEB que consiste em um sistema de consultas e cadastros de empréstimos financeiros.
 
