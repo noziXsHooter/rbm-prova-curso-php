@@ -1,0 +1,24 @@
+{
+    "name": "nozix/cs-mvc",
+    "description": "Shopping Campaign (SORTEIO DE CUPONS) - Trabalho-Projeto de curso da RBM WEB em MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Wilson Oliveira"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "scMVC\\Controllers\\":["app/controllers"],
+            "scMVC\\Models\\":["app/models"],
+            "scMVC\\System\\":["app/system"]
+        },
+        "files":[
+            "app/config.php",
+            "app/helpers/functions.php"
+        ]
+    }
+}
